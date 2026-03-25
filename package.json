@@ -1,0 +1,19 @@
+{
+  "name": "repo-finder",
+  "version": "1.0.0",
+  "description": "A CLI application that finds people's git repositories given their username on Github",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Omar-55x/Repo-Finder.git"
+  },
+  "license": "ISC",
+  "author": "Omar-55x",
+  "type": "commonjs",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "bin": {
+    "repofinder": "main.js"
+  }
+}
